@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<Center>
+		<h1> Create Employee</h1>
+		
+		<form action="SaveServlet" method="post">
+		<table cellpadding="10">
+				
+			<tr><td>Name:</td><td><input type="text" name="name" required></td></tr>
+		
+			<tr><td>email:</td><td><input type="email" name="email" required></td></tr> 
+		
+			<tr><td>Phone_number:</td><td><input type="tel" name="phone_number" required></td></tr> 
+		
+			<tr><td>department:</td><td> 
+			<select name="department" >
+			
+				<option value="Research and Development">Research and Development</option>
+				<option value="Product Development">Product Development</option>
+				<option value="Administration Department"> Administration Department </option>
+				<option value="IT Services Development ">IT Services Development </option>
+				<option value="Support and Security department">Support and Security department</option>
+			
+			
+			</select>
+			</td></tr> 
+		
+		<br>
+				<tr><td>Skills:</td><td>
+				<input type="checkbox" name="box" value="Java" > 
+				<label>Java</label> <br>
+				<input type="checkbox" name="box" value="PHP">
+				<label>PHP</label>  <br>
+				<input type="checkbox" name="box" value="C#">
+				<label>C#</label>   <br>
+				<input type="checkbox" name="box" value="JavaScript">
+				<label>Javascript</label> <br>
+				<input type="checkbox" name="box" value="Flutter">
+				<label>Flutter</label> <br>
+				<input type="checkbox" name="box" value="Ruby">
+				<label>Ruby</label> <br>
+				<input type="checkbox" name="box" value="Go">	
+				<label>Go</label>  <br>
+				</td></tr> 
+		</table>
+		
+		<br>	
+		<br>
+		
+				<input type="submit" value="Save Employee">
+	
+		</form>
+	
+		<br>
+	
+		<a href="ViewServlet">view employees</a>
+		&nbsp;&nbsp;
+		<a href="index.html">Login Page</a>
+		
+	</Center>	
+
+</body>
+</html>
