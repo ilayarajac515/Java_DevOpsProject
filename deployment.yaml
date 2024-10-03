@@ -11,8 +11,8 @@ spec:
     metadata:
       labels:
         app: my-app
-    specs:
-      container:
+    spec:
+      containers:
       - name: lateshipment-container
         image: vidocker//lateshipment:latest
         ports:
