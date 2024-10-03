@@ -4,40 +4,112 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-
-<style>
-	body{
-		background-color: blueviolet;
-		color: white;
-	}
-</style>
-
 <body>
-	<center>
+	<style>
 		
+		*{
+			margin:0;
+			padding:0;	
+		}
+		.backgroundimage{
+			background-image: url("project_k.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+			width: 100%;
+			background-position: center;
+		}
+		.main{
+			position: absolute;
+			margin-left:240px;
+			margin-top:150px;
+			height: 400px;
+			width:400px;
+			background-color: rgb(0,0,0,0.7);
+		}
+		
+		#login{
+			color: white;
+			margin-top:30px;	
+			text-shadow:5px 5px 10px rgb(0, 255, 255);
+			color:rgb(0, 255, 255);
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+		.lab{
+			font-family: 'Courier New', Courier, monospace;
+			text-transform: uppercase ;
+		    font-weight: 600;
+			display: block;
+			text-align: start;	
+			color:whitesmoke;
+			padding-left:115px;
+			margin-bottom: 5px;
+			font-size: 1.3em;
+		}
+		
+		.inp{
+			box-shadow: 2px 2px 10px indigo;
+			padding:5px;
+			border-radius: 10px;
+			
+		}
+		.all{
+			margin-top:30px;
+		}
+		
+		.pass{
+			margin-top:20px;
+		}
+		.cab{
+			font-family: 'Courier New', Courier, monospace;
+			font-weight: 900;
+			padding:5px;
+			margin-top:10px;
+			margin-right:7px;
+			border-radius: 7px;
+		}
+		.cab:hover{
+			color:whitesmoke;
+			background-color: rgba(26, 23, 113,0.6);
+		}
+		
+	</style>
+	
+	
+	
+	<center>
+	<div class="out">
+		<div class="main">
 		<form action="Admin_And_Password_check" method="post">
-			
-			
-			<h1> LOGIN PAGE </h1>
-			
-			<table cellpadding="7">
 				
-				<tr>
-					<td><label> User Name  </label></td>
-					<td><input type="text" name="username"> </td>
- 				</tr>
+			<h1 id="login"> LOGIN PAGE </h1>
+			   <div class="all">
+				<div class="user">
+				
+					<label class="lab"> User Name  </label>
+					<input class="inp" type="text" name="username"> 
  				
- 				<tr>
-					 <td> <label> Password  </label></td>
-					 <td> <input type="password" name="password"> </td>
-				</tr>
+ 				</div>
+ 				
+ 				<div class="pass">
+ 			
+					  <label class="lab"> Password  </label>
+					  <input class="inp"type="password" name="password"> 
 				
-			</table>
+				</div>
+				</div>
+	
 			
-			<br> 
-				<input type="submit" value="Login">
+			<br>
+			 
+			<div class="sub">
+				<input class="cab" type="submit" value="Login">
+			</div>
 			
 		</form>
+	</div>	
+</div>	
+		<div class="backgroundimage"></div>
 		
 		
 		

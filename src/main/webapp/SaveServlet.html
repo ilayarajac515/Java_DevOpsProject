@@ -5,8 +5,31 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.backgroundimage{
+			background-image: url("employee.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+			width: 100%;
+			background-position: bottom;
+		}	
+		
+		.main{
+			position:absolute;
+		}
+		
+	</style>
+	
+	
+	
 
 	<Center>
+		<div class="main">
 		<h1> Create Employee</h1>
 		
 		<form action="SaveServlet" method="post">
@@ -65,5 +88,9 @@
 		
 	</Center>	
 
+	 <div class="backgroundimage">
+		 
+	 </div>
+	 </div>
 </body>
 </html>

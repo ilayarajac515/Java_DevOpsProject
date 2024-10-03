@@ -26,9 +26,6 @@ public class EditServlet extends HttpServlet
         int id=Integer.parseInt(request.getParameter("employee_id"));
           
         Employee_class e=Employee_main.getEmployeeById(id);  
-        
-        
-        e.getDepartment();
           
         out.print("<center><form action='EditServlet2' method='post'>");  
         out.print("<table cellpadding='10'>"); 

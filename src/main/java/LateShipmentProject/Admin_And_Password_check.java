@@ -34,8 +34,11 @@ public class Admin_And_Password_check extends HttpServlet {
 			{
 				z.print("<html> <body> <center> <h1 style = 'color:lime;'> Login Successfully </h1> </center> </body> </html>");
 				
-				RequestDispatcher c = req.getRequestDispatcher("SaveServlet.html");
-				c.forward(req, res);
+				res.sendRedirect("SaveServlet.html");
+				
+				
+//				RequestDispatcher c = req.getRequestDispatcher("SaveServlet.html");
+//				c.forward(req, res);
 				
 			}else {
 				z.print("<html> <body> <center> <h1 style='color:red;'> Login Failed </h1> </center> </body> </html>");
