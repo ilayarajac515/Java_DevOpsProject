@@ -9,8 +9,9 @@ public class Employee_main{
         
     	Connection con=null;  
         try{  
-            Class.forName("com.mysql.cj.jdbc.Driver");  
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Emp_db","root","root");  
+            Class.forName("com.mysql.cj.jdbc.Driver");    
+            con = DriverManager.getConnection("jdbc:mysql://mysql-service:3306/Emp_db", "root", "root@123");
+
         }catch(Exception e)
         {
         	System.out.println(e);
