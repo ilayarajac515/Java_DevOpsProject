@@ -19,8 +19,8 @@
     <maven.compiler.target>1.7</maven.compiler.target>
 
     <sonar.projectKey>Dev</sonar.projectKey> <!-- Replace with your project key -->
-    <sonar.host.url>http://18.60.153.116:9000/</sonar.host.url> <!-- Replace with your SonarQube server URL -->
-    <sonar.login>squ_3efe6806901281bfd9b0e105800a6028eed3f3a1</sonar.login> <!-- Optional: if using token authentication -->
+    <sonar.host.url>http://18.60.129.204:9000/</sonar.host.url> <!-- Replace with your SonarQube server URL -->
+    <sonar.login>squ_7f440e44163a134a147cb3a386fce293d2942a41</sonar.login> <!-- Optional: if using token authentication -->
   </properties>
 
   <dependencies>
