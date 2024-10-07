@@ -19,6 +19,14 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+    <properties>
+        <sonar.projectKey>Dev</sonar.projectKey> <!-- Replace with your project key -->
+        <sonar.host.url>http://18.60.153.116:9000/</sonar.host.url> <!-- Replace with your SonarQube server URL -->
+        <sonar.login>squ_3efe6806901281bfd9b0e105800a6028eed3f3a1</sonar.login> <!-- Optional: if using token authentication -->
+    </properties>
+
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -87,6 +95,12 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.9.0.2155</version> <!-- Use the latest version -->
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
