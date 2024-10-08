@@ -16,13 +16,4 @@ spec:
       - name: myapp-container
         image: ilayaraja616/lateshipment:latest
         ports:
-        - containerPort: 8080 
-        env:
-        - name: MYSQL_HOST
-          value: "172.31.40.156"
-        - name: MYSQL_DATABASE
-          value: "Emp_db"
-        - name: MYSQL_USER
-          value: "devopsteam"
-        - name: MYSQL_PASSWORD
-          value: "root"
+        - containerPort: 8080
