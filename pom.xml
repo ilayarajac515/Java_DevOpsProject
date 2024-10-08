@@ -23,6 +23,8 @@
     <sonar.login>squ_8bce5e515958c1bb69b8911de1cc0b11d7023589</sonar.login> <!-- Optional: if using token authentication -->
   </properties>
 
+	<!-- hi da nanba -->
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
