@@ -2,8 +2,8 @@ pipeline {
     agent any
  
     environment { 
-        DOCKER_USER = 'ilayaraja616'
-        DOCKER_PASS = 'Cmskilaya@6'
+        DOCKER_USER = 'YOUR-DOCKER-USER'
+        DOCKER_PASS = 'YOUR-DOCKER-PASS'
         SCANNER_HOME = tool 'sonar-scanner'
     }
     triggers{
